@@ -1,0 +1,28 @@
+.block2-pic {
+    position: relative;
+    overflow: hidden;
+}
+
+.discount-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #f12929;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    z-index: 1;
+    font-size: 14px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.block2:hover .discount-badge {
+    opacity: 0.9;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.text-decoration-line-through {
+    text-decoration: line-through;
+}
